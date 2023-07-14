@@ -7,11 +7,10 @@ public class Car {
 
 
     public Car() {
-        System.out.println("com.ea.SpringStart.Car instantiated");
+        System.out.println("********* car.java in  com.ea.SpringStart.Car instantiated");
     }
 
     public void getCar() {
-        System.out.println("Toyota");
-
+        System.out.println("********* getCar() in  Toyota");
     }
 }

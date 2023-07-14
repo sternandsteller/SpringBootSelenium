@@ -30,30 +30,31 @@ class SpringStartApplicationTests {
 
 	@Test
 	void contextLoads1() {
-		System.out.println(appUrl);
-//		homePage.Navigate(appUrl);
-//		homePage.ClickLogin();
-//		loginPage.Login("admin", "password");
-//		loginPage.ClickLogin();
+		System.out.println("**************1111111"+appUrl);
+		homePage.Navigate(appUrl);
+		homePage.ClickLogin();
+		//loginPage.Login("admin", "password");
+		//loginPage.ClickLogin();
 	}
 
 	@Test
 	void contextLoads2() {
-		System.out.println(appUrl);
-//		homePage.Navigate(appUrl);
-//		homePage.ClickLogin();
-//		loginPage.Login("admin", "password");
-//		loginPage.ClickLogin();
+		System.out.println("**************2222222"+appUrl);
+		homePage.Navigate(appUrl);
+		homePage.ClickLogin();
+		//loginPage.Login("admin", "password");
+		//loginPage.ClickLogin();
 	}
 
 
 	@Test
 	void contextLoads3() {
+		System.out.println("**************333333333"+appUrl);
 		System.out.println(appUrl);
-//		homePage.Navigate(appUrl);
-//		homePage.ClickLogin();
-//		loginPage.Login("admin", "password");
-//		loginPage.ClickLogin();
+		homePage.Navigate(appUrl);
+		homePage.ClickLogin();
+		//loginPage.Login("admin", "password");
+		//loginPage.ClickLogin();
 	}
 
 
@@ -62,11 +63,11 @@ class SpringStartApplicationTests {
 	void contextLoads() {
 
 
-		System.out.println(appUrl);
-//		homePage.Navigate(appUrl);
-//		homePage.ClickLogin();
-//		loginPage.Login("admin", "password");
-//		loginPage.ClickLogin();
+		System.out.println("**************44444444444"+appUrl);
+		homePage.Navigate(appUrl);
+		homePage.ClickLogin();
+		//loginPage.Login("admin", "password");
+		//loginPage.ClickLogin();
 	}
 
 }
